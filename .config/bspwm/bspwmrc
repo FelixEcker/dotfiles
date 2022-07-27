@@ -16,7 +16,7 @@ bspc monitor DP-0 -d I II III IV V
 #############
 # Autostart #
 #############
-sh .screenlayouts/layout.sh &
+sh .screenlayout/layout.sh &>> $HOME/screen.txt &
 sh $HOME/.config/polybar/launch.sh &
 sh $HOME/.fehbg &
 

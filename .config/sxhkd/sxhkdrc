@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# discord
+super + d
+	discord
+
 # ranger
 super + r
 	xfce4-terminal -e ranger
