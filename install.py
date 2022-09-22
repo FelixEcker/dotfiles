@@ -34,10 +34,10 @@ def main():
         install_yay()
 
     print ("\n:: Installing pacman pkgs")
-    #os.system("sudo pacman -S "+pacman_pkgs)
+    os.system("sudo pacman -S "+pacman_pkgs)
 
     print ("\n:: Installing yay pkgs")
-    #os.system("yay -a -S "+yay_pkgs)
+    os.system("yay -a -S "+yay_pkgs)
 
     print ("\n:: Copying dotfiles...")
     total = len(dotfiles)+filecount()
