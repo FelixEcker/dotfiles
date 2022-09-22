@@ -3,10 +3,10 @@ dotfiles for my bspwm installation
 
 # Requirements
 * alsa-utils
-* [AudioConverter](https://github.com/FelixEcker/AudioConverter)
+* exa
 * feh
 * mpv
-* neofetch
+* pasfetch (aur)
 * picom
 * pulseaudio
 * python
