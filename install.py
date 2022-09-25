@@ -2,7 +2,7 @@ import os
 import shutil
 from pathlib import Path
 
-pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim xfce4 Xorg"
+pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim xfce4 Xorg xdo"
 yay_pkgs = "pasfetch"
 dotfiles = [".bashrc", ".xinitrc"]
 dotdirs = [".config"]

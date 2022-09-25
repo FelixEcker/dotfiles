@@ -22,6 +22,14 @@ super + Return
 super + @space
 	dmenu_run -fn 'sourcecodepro-20.0'
 
+# raise polybar
+super + p + o
+	xdo above -N "Polybar" -t $(xdo id -N Bspwm -n root)
+
+# lower polybar
+super + p + l
+	xdo lower -N "Polybar"
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

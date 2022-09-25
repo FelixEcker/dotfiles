@@ -30,3 +30,17 @@ bspc config window_gap          12
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+
+#######################################
+# Configure Fullscreen for Steamgames #
+#######################################
+
+mygames=$(/usr/bin/ls /mnt/datenplatte/Spiele/SteamLibrary/steamapps/ | grep appmanifest | sed 's/[^0-9]*//g')
+# this sed command removes everything but the digits
+
+for game in $mygames; do
+        bspc rule -a steam_app_$game desktop=^10 state=fullscreen follow=on
+done
+
+# Lower polybar for fullscreen games
+xdo lower -N "Polybar"
