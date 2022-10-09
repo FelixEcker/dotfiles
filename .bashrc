@@ -10,10 +10,12 @@ alias runter='shutdown now'
 alias edit='vim'
 alias py='python'
 alias ac='audioconv'
-alias sysup='sudo pacman -Syu'
-alias ls='ls --color=auto -l'
+alias sysup='sudo pacman -Syu && yay -Syu'
+alias ls='exa --color=auto -l'
 
 PS1="\u@\h \n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')$ \[$(tput sgr0)\]"
-neofetch
+pasfetch
 
-export DISPLAY=:1
+# mpv refuses to work without setting display to :0
+export DISPLAY=:0
+. "$HOME/.cargo/env"
