@@ -1,5 +1,5 @@
 # .files
-dotfiles for my bspwm installation
+dotfiles for my thinkpad arch install
 
 # Requirements
 * alsa-utils
