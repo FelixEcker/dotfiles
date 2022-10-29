@@ -28,8 +28,13 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
-ColorBackground=#103600000e97
-TabActivityColor=#81813d3d9c9c
-ColorCursorForeground=#ffffffffffff
-ColorCursor=#e0e01b1b2424
+ColorBackground=#002b36
+TabActivityColor=#dc322f
+ColorCursor=#93a1a1
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0,800000
+ColorForeground=#839496
+ColorBold=#93a1a1
+ColorBoldUseDefault=FALSE
+ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#839496;#6c71c4;#93a1a1;#fdf6e3
 
