@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim xfce4 Xorg xdo"
-yay_pkgs = "pasfetch"
+yay_pkgs = "pasfetch pasmotd g810-led-git"
 dotfiles = [".bashrc", ".xinitrc"]
 dotdirs = [".config"]
 
