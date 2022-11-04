@@ -3,8 +3,8 @@ import shutil
 from pathlib import Path
 
 pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim xfce4 Xorg"
-yay_pkgs = "pasfetch"
-dotfiles = [".bashrc"]
+yay_pkgs = "pasfetch pasmotd"
+dotfiles = [".bashrc", ".vimrc"]
 dotdirs = [".config"]
 
 def install_yay():
