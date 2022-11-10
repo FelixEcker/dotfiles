@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export PAGER="most"
+
 alias mmpv='mpv --no-video'
 alias runter='shutdown now'
 alias edit='vim'
@@ -15,4 +17,4 @@ alias ls='exa --color=auto -l'
 
 PS1="\u@\h \n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')$ \[$(tput sgr0)\]"
 pasfetch
-pasmotd cyan bold rapidblink
+pasmotd cyan bold underline
