@@ -3,7 +3,6 @@ dotfiles for my bspwm installation
 
 # Requirements
 * alsa-utils
-* [AudioConverter](https://github.com/FelixEcker/AudioConverter)
 * feh
 * mpv
 * neofetch
