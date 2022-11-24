@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim xfce4 Xorg most"
-yay_pkgs = "pasfetch pasmotd"
+yay_pkgs = "pasfetch pasmotd sadv"
 dotfiles = [".bashrc", ".vimrc"]
 dotdirs = [".config"]
 
