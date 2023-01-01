@@ -18,7 +18,8 @@ bspc monitor DP-0 -d I II III IV V
 #############
 sh .screenlayout/layout.sh &>> $HOME/screen.txt &
 sh $HOME/.config/polybar/launch.sh &
-sh $HOME/.fehbg &
+nitrogen --restore
+picom --vsync &
 
 ################
 # bspwm config #
