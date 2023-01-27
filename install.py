@@ -3,22 +3,22 @@ import shutil
 from pathlib import Path
 
 pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim xfce4 Xorg most"
-yay_pkgs = "pasfetch pasmotd sadv"
+aur_pkgs = "pasfetch pasmotd sadv"
 dotfiles = [".bashrc", ".vimrc"]
 dotdirs = [".config"]
 
-def install_yay():
-    print (":: Installing yay...")
-    os.system("git clone https://aur.archlinux.org/yay")
+def install_paru():
+    print (":: Installing paru...")
+    os.system("git clone https://aur.archlinux.org/paru")
     os.chdir("yay")
     os.system("makepkg -s")
     for file in os.listdir():
         if file.endswith(".zst"):
             os.system("sudo pacman -U "+file)
 
-    print (":: yay installed successfully, cleaning")
+    print (":: paru installed successfully, cleaning")
     os.chdir("..")
-    os.system("rm -rf yay")
+    os.system("rm -rf paru")
 
 def filecount():
     count = 0
@@ -29,15 +29,15 @@ def filecount():
     return count
 
 def main():
-    print (":: Checking if yay is installed")
-    if not os.path.isfile("/usr/bin/yay"):
-        install_yay()
+    print (":: Checking if paru is installed")
+    if not os.path.isfile("/usr/bin/paru"):
+        install_paru()
 
     print ("\n:: Installing pacman pkgs")
     os.system("sudo pacman -S "+pacman_pkgs)
 
-    print ("\n:: Installing yay pkgs")
-    os.system("yay -a -S "+yay_pkgs)
+    print ("\n:: Installing aur pkgs")
+    os.system("paru -a -S "+aur_pkgs)
 
     print ("\n:: Copying dotfiles...")
     total = len(dotfiles)+filecount()
