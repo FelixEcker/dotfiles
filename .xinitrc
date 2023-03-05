@@ -51,4 +51,5 @@ fi
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 setxkbmap -layout de &
-exec bspwm
+sh /home/felix/start.sh &
+exec leftwm
