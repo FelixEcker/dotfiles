@@ -4,7 +4,7 @@ from pathlib import Path
 
 pacman_pkgs = "alsa-utils exa nitrogen flameshot mpv picom pulseaudio python ranger vim xorg xdo fpc
 polybar arandr"
-paru_pkgs = "pasfetch pasmotd g810-led-git leftwm alacritty"
+paru_pkgs = "pasfetch pasmotd g810-led-git leftwm alacritty betterlockscreen"
 dotfiles = [".bashrc", ".xinitrc", "start.sh"]
 dotdirs = [".config"]
 
