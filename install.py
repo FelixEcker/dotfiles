@@ -12,12 +12,8 @@ dotdirs = [".config"]
 def install_paru():
     print (":: Installing paru...")
     os.system("git clone https://aur.archlinux.org/paru")
-    os.chdir("yay")
-    os.system("makepkg -s")
-    for file in os.listdir():
-        if file.endswith(".zst"):
-            os.system("sudo pacman -U "+file)
-
+    os.chdir("paru")
+    os.system("makepkg -si")
     print (":: paru installed successfully, cleaning")
     os.chdir("..")
     os.system("rm -rf paru")
