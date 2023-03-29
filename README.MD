@@ -1,2 +1,2 @@
 # .files
-dotfiles for my bspwm installation
+dotfiles for my arch installation
