@@ -58,7 +58,7 @@
         (command: Execute, value: "rofi -show filebrowser", modifier: ["modkey", "Shift"], key: "f"),
         (command: Execute, value: "systemctl suspend && betterlockscreen -l", modifier:
         ["modkey", "Shift"], key: "l"),
-        (command: Execute, value: "flameshot gui", modifier: ["modkey", "Shift"], key: "i"),
+        (command: Execute, value: "flameshot gui", modifier: ["modkey", "Shift"], key: "s"),
         (command: Execute, value: "betterlockscreen -l", modifier: ["modkey"], key: "l"),
         (command: Execute, value: "rofi -show run", modifier: ["modkey"], key: "p"),
         (command: Execute, value: "alacritty", modifier: ["modkey"], key: "Return"),

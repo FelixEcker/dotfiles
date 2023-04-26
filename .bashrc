@@ -7,6 +7,8 @@
 
 export PAGER="most"
 
+alias hasistate='mosquitto_pub -h atuin -t hasi/state -m '
+alias saddocs='~/workspace/saddocs/out/saddocs'
 alias mmpv='mpv --no-video'
 alias runter='shutdown now'
 alias edit='vim'
