@@ -17,6 +17,7 @@ alias ac='audioconv'
 alias sysup='sudo pacman -Syu | yay -Syu'
 alias ls='exa --color=auto -l'
 alias switchlayout='python ~/switchlayout.py'
+alias stripwhite="sed -i 's/[ \t]*$//' "
 
 PS1="\u@\h \n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')$ \[$(tput sgr0)\]"
 pasfetch
