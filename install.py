@@ -4,9 +4,9 @@ from pathlib import Path
 
 # Author: Marie / Bertrahm
 
-pacman_pkgs = "alsa-utils exa feh mpv picom pulseaudio python ranger vim allacritty xorg most nitrogen"
+pacman_pkgs = "rofi exa feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
 aur_pkgs = "pasfetch pasmotd sadv leftwm xkblayout-state"
-dotfiles = ["switchlayout.py", ".bashrc", ".vimrc"]
+dotfiles = ["switchlayout.py", ".bashrc", ".vimrc", "start.sh"]
 dotdirs = [".config"]
 
 def install_paru():
