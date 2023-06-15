@@ -4,10 +4,14 @@ from pathlib import Path
 
 # Author: Marie / Bertrahm
 
-pacman_pkgs = "rofi exa feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
+pacman_pkgs = "ttf-hack-nerd rofi exa feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
 aur_pkgs = "pasfetch pasmotd sadv leftwm xkblayout-state"
 dotfiles = ["switchlayout.py", ".bashrc", ".vimrc", "start.sh"]
 dotdirs = [".config"]
+additional_scripts = """
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+""" 
 
 def install_paru():
     print (":: Installing paru...")
@@ -62,6 +66,8 @@ def main():
                 copied += 1
 
     print (":: Copied all files!")
+    print (":: Running additional shell scripts")
+    os.system(additional_scripts)
     print (":: Install successfull!")
 
 if __name__ == "__main__":
