@@ -1,5 +1,5 @@
 # .files
-dotfiles for my thinkpad arch install
+dotfiles for my ubuntu install at work
 
 # Requirements
 * python3 for running install.py
