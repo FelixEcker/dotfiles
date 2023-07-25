@@ -4,23 +4,12 @@ from pathlib import Path
 
 # Author: Marie / Bertrahm
 
-pacman_pkgs = "ttf-hack-nerd rofi exa feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
-aur_pkgs = "pasfetch pasmotd sadv leftwm xkblayout-state"
-dotfiles = ["switchlayout.py", ".bashrc", ".vimrc", "start.sh"]
+dotfiles = [".bashrc", ".vimrc"]
 dotdirs = [".config"]
 additional_scripts = """
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 """ 
-
-def install_paru():
-    print (":: Installing paru...")
-    os.system("git clone https://aur.archlinux.org/paru")
-    os.chdir("paru")
-    os.system("makepkg -si")
-    print (":: paru installed successfully, cleaning")
-    os.chdir("..")
-    os.system("rm -rf paru")
 
 def filecount():
     count = 0
@@ -31,16 +20,6 @@ def filecount():
     return count
 
 def main():
-    print (":: Checking if paru is installed")
-    if not os.path.isfile("/usr/bin/paru"):
-        install_paru()
-
-    print ("\n:: Installing pacman pkgs")
-    os.system("sudo pacman -S "+pacman_pkgs)
-
-    print ("\n:: Installing aur pkgs")
-    os.system("paru -a -S "+aur_pkgs)
-
     print ("\n:: Copying dotfiles...")
     total = len(dotfiles)+filecount()
     copied = 1
