@@ -4,8 +4,8 @@ from pathlib import Path
 
 # Author: Marie / Bertrahm
 
-pacman_pkgs = "ttf-hack-nerd rofi exa feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
-aur_pkgs = "pasfetch pasmotd sadv leftwm xkblayout-state"
+pacman_pkgs = "ttf-hack-nerd rofi feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
+aur_pkgs = "pasfetch pasmotd sadv leftwm xkblayout-state eza-git"
 dotfiles = ["switchlayout.py", ".bashrc", ".vimrc", "start.sh"]
 dotdirs = [".config"]
 additional_scripts = """
