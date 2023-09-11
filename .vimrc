@@ -35,7 +35,9 @@ nnoremap <esc> :noh<cr>
 nmap rw :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 " Keybind for exiting Terminalmode
 tnoremap <Esc><C-n> <C-\><C-n>
-
-" -- Plugins -- "
-call plug#begin()
-call plug#end()
+" Keybind for opening a new Bash Terminal
+nnoremap <F1> :tabe term://bash<CR>
+" Tab Previous
+nnoremap <C-y> :tabp<cr>
+" Tab Next
+nnoremap <C-x> :tabn<cr>
