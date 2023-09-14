@@ -1,12 +1,16 @@
+" -- look & feel -- "
 set number
+
+set linebreak
 set showbreak=+++
-set textwidth=100
+set textwidth=80
+set colorcolumn=81
+
 set showmatch
 set visualbell
 
 set hlsearch
 set smartcase
-set gdefault
 set ignorecase
 set incsearch
 
@@ -18,12 +22,10 @@ set smarttab
 set softtabstop=2
 
 set ruler
+set showtabline=2
 
 set undolevels=1000
 set backspace=indent,eol,start
-
-set colorcolumn=80
-
 syntax on
 
 " -- Keymapping -- "
@@ -33,6 +35,8 @@ nnoremap <esc> :noh<cr>
 nmap rw :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 " Keybind for exiting Terminalmode
 tnoremap <Esc><C-n> <C-\><C-n>
+" Keybind for opening a new Bash Terminal
+nnoremap <F1> :tabe term://bash<CR>
 " Tab Previous
 nnoremap <C-y> :tabp<cr>
 " Tab Next
