@@ -1,0 +1,18 @@
+sector .config
+  ; mariebuild c buildscript template from mbinit
+  ; author: Marie Eckert
+
+  fields depends:
+    str includes ''
+
+  fields mariebuild:
+    str binname   ''
+    str compiler 'gcc'
+
+    list files ''
+
+    str std_flags     '-Wall $(depends/includes) -c -o'
+    str debug_flags   '-ggdb'
+    str release_flags '-O3'
+
+    str comp_cmd '$(compiler) $(mode_flags) $(std_flags) out/$(file).o src/$(file)'

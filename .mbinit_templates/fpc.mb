@@ -1,0 +1,15 @@
+sector .config
+  ; mariebuild fpc buildfile template from mbinit
+  ; author: Marie Eckert
+
+  fields mariebuild:
+    list files ''
+
+    str inc_dirs ''
+    str out_dir  'out/'
+
+    str std_flags '-FE"$(out_dir)" -Fu"$(inc_dirs)"'
+    str debug_flags '-g -dDEBUG'
+    str release_flags '-XX -Xs'
+
+    str comp_cmd 'fpc $(file) $(std_flags) ${mode_flags}'
