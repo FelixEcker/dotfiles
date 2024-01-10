@@ -2,8 +2,7 @@ import os
 import shutil
 from pathlib import Path
 
-pacman_pkgs = "alsa-utils exa nitrogen flameshot mpv picom pulseaudio python ranger vim xorg xdo fpc
-polybar arandr xbindkeys playerctl"
+pacman_pkgs = "alsa-utils exa nitrogen flameshot mpv picom pulseaudio python ranger vim xorg xdo fpc polybar arandr xbindkeys playerctl"
 paru_pkgs = "pasfetch pasmotd g810-led-git leftwm alacritty betterlockscreen"
 dotfiles = [".bashrc", ".xinitrc", ".xbindkeysrc", "start.sh"]
 dotdirs = [".config"]
@@ -30,6 +29,10 @@ def filecount():
     return count
 
 def main():
+    print ("this script is deprecated, continue? (y/n) ", end = "")
+    if input() == "n":
+        exit()
+
     print (":: Checking if paru is installed")
     if not os.path.isfile("/usr/bin/paru"):
         install_paru()

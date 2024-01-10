@@ -1,0 +1,37 @@
+[colors.bright]
+black = "#666666"
+blue = "#819AFF"
+cyan = "#66D9EF"
+green = "#A6E22E"
+magenta = "#AE81FF"
+red = "#F92672"
+white = "#F8F8F2"
+yellow = "#E2E22E"
+
+[colors.normal]
+black = "#333333"
+blue = "#6A7EC8"
+cyan = "#56ADBC"
+green = "#86B42B"
+magenta = "#8C6BC8"
+red = "#C4265E"
+white = "#E3E3DD"
+yellow = "#B3B42B"
+
+[colors.primary]
+background = "#1B1D1E"
+foreground = "#F8F8F2"
+
+[env]
+LANG = "en_US.UTF-8"
+LC_CTYPE = "en_US.UTF-8"
+TERM = "alacritty"
+
+[font]
+size = 9.0
+
+[font.normal]
+family = "Hack Nerd Font"
+
+[window]
+opacity = 0.85
