@@ -4,13 +4,11 @@ from pathlib import Path
 
 # Author: Marie / Bertrahm
 
-pacman_pkgs = "ttf-hack-nerd rofi feh mpv picom python ranger neovim alacritty xorg most arandr polybar nitrogen picom"
-aur_pkgs = "pasfetch pasmotd sadv leftwm xkblayout-state eza-git"
+pacman_pkgs = "ttf-hack-nerd mpv python neovim alacritty most hyprland waybar"
+aur_pkgs = "pasfetch pasmotd sadv eza-git"
 dotfiles = ["switchlayout.py", ".bashrc", ".vimrc", "start.sh"]
 dotdirs = [".config", ".mbinit_templates"]
 additional_scripts = """
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 """ 
 
 def install_paru():
