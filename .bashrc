@@ -3,7 +3,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export PAGER="most"
+export PAGER="bulk"
 export EDITOR="nvim"
 export VISUAL="nvim"
 

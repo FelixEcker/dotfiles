@@ -1,7 +1,11 @@
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
-source ~/.vimrc
+
 call plug#begin()
-Plug 'tikhomirov/vim-glsl'
-Plug 'andweeb/presence.nvim'
+Plug 'Mofiqul/vscode.nvim'
 call plug#end()
+
+colorscheme vscode
+
+" Load generic vimrc
+source ~/.vimrc

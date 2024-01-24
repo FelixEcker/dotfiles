@@ -41,3 +41,6 @@ nnoremap <F1> :tabe term://bash<CR>
 nnoremap <C-y> :tabp<cr>
 " Tab Next
 nnoremap <C-x> :tabn<cr>
+
+" -- AutoCmds -- "
+autocmd TermOpen * setlocal nonumber
