@@ -4,7 +4,7 @@ set number
 set linebreak
 set showbreak=+++
 set textwidth=80
-set colorcolumn=80
+set colorcolumn=81
 
 set showmatch
 set visualbell
@@ -35,7 +35,12 @@ nnoremap <esc> :noh<cr>
 nmap rw :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 " Keybind for exiting Terminalmode
 tnoremap <Esc><C-n> <C-\><C-n>
+" Keybind for opening a new Bash Terminal
+nnoremap <F1> :tabe term://bash<CR>
+" Tab Previous
+nnoremap <C-y> :tabp<cr>
+" Tab Next
+nnoremap <C-x> :tabn<cr>
 
-" -- Plugins -- "
-call plug#begin()
-call plug#end()
+" -- Autocmd -- "
+autocmd TermOpen * setlocal nonumber
