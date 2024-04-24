@@ -4,7 +4,7 @@ source ~/.vimrc
 
 call plug#begin()
 Plug 'Mofiqul/vscode.nvim'
-Plug 'vimsence/vimsence'
+Plug 'andweeb/presence.nvim'
 call plug#end()
 
 colorscheme vscode
