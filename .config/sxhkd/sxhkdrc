@@ -1,0 +1,28 @@
+# ------------------------------------------------------------------------------
+# wm independent hotkeys
+# ------------------------------------------------------------------------------
+
+# terminal
+super + Return
+	alacritty
+
+super + p
+	rofi -show run
+
+super + l
+	physlock
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# ------------------------------------------------------------------------------
+# MaWiM hotkeys
+# ------------------------------------------------------------------------------
+
+# focus or send to the given desktop
+super + {1-9}
+	/home/marie/workspace/c/mawim/build/release/mawimctl set_workspace '{1-9}'
+
+super + shift + {1-9}
+	/home/marie/workspace/c/mawim/build/release/mawimctl move_focused_to_workspace '{1-9}'

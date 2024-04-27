@@ -1,26 +1,30 @@
 [colors.bright]
-black = "#444b6a"
-blue = "#7da6ff"
-cyan = "#0db9d7"
-green = "#b9f27c"
-magenta = "#bb9af7"
-red = "#ff7a93"
-white = "#acb0d0"
-yellow = "#ff9e64"
+black = "#545454"
+red = "#f44747"
+green = "#608b4e"
+yellow = "#dcdcaa"
+blue = "#569cd6"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#d4d4d4"
 
 [colors.normal]
-black = "#32344a"
-blue = "#7aa2f7"
-cyan = "#449dab"
-green = "#9ece6a"
-magenta = "#ad8ee6"
-red = "#f7768e"
-white = "#787c99"
-yellow = "#e0af68"
+black = "#1e1e1e"
+red = "#f44747"
+green = "#608b4e"
+yellow = "#dcdcaa"
+blue = "#569cd6"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#d4d4d4"
 
 [colors.primary]
-background = "#1a1b26"
-foreground = "#a9b1d6"
+background = "#1e1e1e"
+foreground = "#d4d4d4"
+
+[colors.cursor]
+text = "#d4d4d4"
+cursor = "#d4d4d4"
 
 [cursor.style]
 shape = "Beam"
@@ -34,10 +38,10 @@ LC_CTYPE = "en_US.UTF-8"
 TERM = "alacritty"
 
 [font]
-size = 8.0
+size = 10.0
 
 [font.normal]
-family = "Hack Nerd Font"
+family = "Iosevka Term Nerd Font"
 
 [window]
 opacity = 0.9
