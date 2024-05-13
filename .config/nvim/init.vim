@@ -2,8 +2,8 @@ set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
 source ~/.vimrc
 call plug#begin()
-Plug 'Stoozy/vimcord'
 Plug 'Mofiqul/vscode.nvim'
+Plug 'tikhomirov/vim-glsl'
 call plug#end()
 
 colorscheme vscode

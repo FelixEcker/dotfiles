@@ -33,7 +33,7 @@ syntax on
 " Disable search highlight
 nnoremap <esc> :noh<cr>
 " Strip trailing whitespace
-nmap <C-w> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+nmap rw :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 " Keybind for exiting Terminalmode
 tnoremap <Esc><C-n> <C-\><C-n>
 " Keybind for opening a new Bash Terminal
