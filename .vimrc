@@ -24,6 +24,8 @@ set softtabstop=2
 set ruler
 set showtabline=2
 
+set mouse=
+
 set undolevels=1000
 set backspace=indent,eol,start
 syntax on

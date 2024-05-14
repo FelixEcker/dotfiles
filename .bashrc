@@ -3,7 +3,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export PAGER="bulk"
+export PAGER="most"
 export EDITOR="nvim"
 export VISUAL="nvim"
 
@@ -47,3 +47,4 @@ PS1="\u@\h \n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\
 pasfetch
 pasmotd red bold
 . "$HOME/.cargo/env"
+source ~/.local/share/blesh/ble.sh
