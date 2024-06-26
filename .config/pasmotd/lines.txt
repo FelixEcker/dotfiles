@@ -1,9 +1,281 @@
+Absolutely.
+Absolutely not.
+I suspected this could happen but the Administrator just would not listen.
+A fellow scientist.
+Ah, Freeman.
+Do you think we should appeal to the alien authorities?
+Do you suspect some alien subterfuge behind this failure?
 Yes, this all looks nominal.
-*Scream*
+Alright.
+I am rather looking forward to this analysis, aren't you?
+Did you understand that last announcement?
+Are you thinking what I'm thinking?
+As I expected.
+Have I been that much of a burden?
+Have you been able to get the beverage machine to work yet?
+Wouldn't you like to get one of these blood samples under a microscope?
+Big day today, Freeman.
+Scream
+Quick! It's about to go critical!
+What the hell is going on with our equipment? (Eli Vance)
+It wasn't meant to do this in the first place!
+Ah, Gordon, here you are. We just sent the sample down to the Test Chamber.
+We've boosted the Anti-Mass Spectrometer to 105 percent. Bit of a gamble, but we need the extra resolution.
+The Administrator is very concerned that we get a conclusive analysis of today's sample.
+They're waiting for you, Gordon. In the Test Chamber.
+All right, Gordon, your suit should keep you comfortable through all this. 
+The specimen will be delivered to you in a few moments. 
+If you would be so good as to climb up and start the rotors.
+We can bring the Anti-Mass Spectrometer to eighty percent and hold it there until the carrier arrives.
+Gordon, are you not hearing me? Climb up and start the rotors, please.
+Climb up and start the rotors.
+Very good. We'll take it from here.
+Power to stage one emitters in three...two...one...
+I'm seeing predictable phase arrays.
+Stage two emitters activating...now.
+I have just been informed that the sample is ready, Gordon. It should be coming up to you any moment now.
+Standard insertion for a nonstandard specimen.
+Go ahead, Gordon. Slot the carrier into the analysis port.
+Overhead capacitors to one oh five percent.
+Gordon, we cannot predict how long the system can operate at this level, nor how long the reading will take. Please work as quickly as you can.
+Uh...it's probably not a problem...probably...but I'm showing a small discrepancy in...well, no, it's well within acceptable bounds again. Sustaining sequence.
+Nothing you need to worry about, Gordon. Go ahead.
+Wha-what's he doing in there?
+Get him out of there! Shut down the equipment and someone get him out!
+Shutting down. Attempting shut down. It's not...it's-it's not...it's not shutting down...it's not...
+Gordon! Get away from the beams!
+Testing...testing... Everything seems to be in order.
+Get away from there, Freeman! I'm expecting an important message!
+Good morning, Gordon.
+Good morning, Gordon.
+I'm afraid we'll be deviating a bit from standard analysis procedures today, Gordon.
+Yes, but with good reason. This is a rare opportunity for us. This is the purest sample we've seen yet.
+And potentially the most unstable!
+Now, now, if you follow standard insertion procedures, everything will be fine.
+I don't know how you can say that. Although I will admit that the possibility of a resonance cascade scenario is extremely unlikely, I remain uncomfortable with the...
+Gordon doesn't need to hear all this. He's a highly trained professional. We have assured the Administrator that nothing will go wrong.
+Ah yes, you're right. Gordon, we have complete confidence in you.
+Well, go ahead. Let's let him in now.
+[muffled] ("I've told you a hundred times, I am opposed to pushing this equipment beyond the test level.")[a]
+The sample was just delivered to the test chamber.
+Scientist expectorating in one of the bathroom stalls in Sector C.
+No, stay back! Gordon!
+Why didn't they listen!
+We tried to warn them.
+I never thought I'd see a Resonance Cascade, let alone create one.
+Gordon, you're alive! Thank God for that hazard suit. I'm afraid to move him, and all our phones are out. 
+Please, get to the surface as soon as you can, and let someone know we're stranded down here.
+Be careful, Gordon.
+I...I can't hold on much...longer...
+I'm not so sure I want to get to the surface. What if the world finds out what we were doing down here?
+Take me with you! I'm the one man who knows everything!
+Rescued at last! Thank God you're here!
+For God's sake, open the silo door! They're coming for us; it's our only way out!
+Oh my God...we're doomed!
+Don't shoot! I'm with the science team!
+This is my hiding spot, and I'm not moving until the situation is drastically improved. Now go away and don't tell anyone I'm here.
+Excellent! Someone has restored all power! We'll have the engine up again in no time!
+I hope no one expects me to start up the generator. Smithers went down there and never came back.
+Fire the...rocket engine. Destroy the damned thing before it grows any larger!
+No...No! No! Get it off me! Get it off! Get it off!
+Well, so much for the government. Their idea of containment is to kill everyone associated with the project! 
+Gordon Freeman—it is you, isn't it?
+That suit of yours is full of tracking devices.
 Put that down—it's a prototype.
+It's much too unpredictable. Don't let it overcharge!
+Well, I'll let you out, but I'm warning you...it's hell out there.
+Gordon Freeman! You finally found us!
+Freeman, you fool!
+Hurry up, Freeman, I can't keep it open forever!
+Not yet, Freeman!
+It's ready! You must go! Now!
+We're almost there, Freeman. Get yourself in position.
+You can't be serious.
 It can't get any worse than this.
-*Cough*
+I can't take much more of this.
+Aren't you a bit worried about that exponential cascade scenario we discussed?
+Shouldn't we try to capture a specimen?
+Do you still say there's nothing to chaos theory?
+Are you sure you checked the Eigen attenuators?
+You are completely wrong.
+It appears the containment system has completely failed.
+Are you one hundred percent sure that theory of yours is correct?
+Cough
+Do you think we should delay for another recalibration?
+Did you hear that?
+Are you seriously suggesting that all of these beings are here to dine on us?
+I don't concur.
+No, don't go that way!
+I really don't know.
+No, I don't want to die!
 Do you know who ate all the donuts?
+Do you smell what I smell?
+Will we ever make it out of here?
+Have you ever seen anything like this?
+With my brains and your brawn we'll make an excellent team.
+Excuse me, Gordon.
+Don't you find this all rather fascinating?
+Glad to oblige a fellow scientist.
+Fine. You won't even know I'm here.
+Freeman.
+Freeman! Who would have thought you'd still be alive?
+I certainly hope those backup fusion shunts are in good shape today.
+I just want to get out of this alive.
+I've got to get out of here!
+I believe this will make for a notable paper, don't you?
+Ah, it's good to see you.
+I've got to get out of here!
+Greetings!
+Greetings.
+These crab creatures have a unique parasitic strategy, don't you think?
+Let me take care of that wound for you.
+This should make you feel better.
+Allow me to treat that injury.
+I can give you something for the pain.
+Don't worry, I am a doctor.
+Did you hear something?
+Hello.
+Hello.
+Ah, hello, Gordon Freeman. It's good to see you.
+You are from the Anomalous Materials Lab. Yes, I recognize you.
+Hello there.
+Someone has hidden my glasses again.
+Hold still, this won't hurt a bit.
 I hope those containment parameters are still nominal.
-rust user sind gemein :'(
-aaaa
+I certainly hope you know what you're doing.
+How interesting, just look at that.
+Is anyone else getting hungry?
+I believe so.
+I don't think so.
+I hear something.
+I'll wait.
+I'll wait right here.
+Another important species revealed in action.
+A failure of this magnitude is extremely improbable.
+I'm sure of it.
+It's inconclusive.
+Ah, Freeman. I see you are in this mess too.
+I predicted all of this, you know. All of it!
+I'll stay here.
+I seem to be wounded...but I can keep going.
+Well, I seem to be seriously wounded.
+I don't think I can last much longer.
+Didn't you just ask me that?
+I hope those people in the Lambda Lab can get this under control.
+Lead the way.
+What? You're leaving me here?
+Let me help you.
+Let's go.
+Let's try this.
+Wait a minute and I'll let you in.
+This is all within theoretical limits.
+Kindly lower your voice.
+It's highly probable that our luck will change, don't you agree?
+This is madness! I'm getting out of here!
+I'd give my right hemisphere for a few hours of sleep.
+Fascinating. I never suspected such things could be.
+Ah, you have one of the new HEV suits. That should be very useful.
+Any ideas on the origin of that new sample?
+I have no doubt.
+Well, there goes our grant money.
+I couldn't even venture a guess.
+You have no idea what is going on, do you?
+No.
+No!
+No! Please!
+I'm not certain.
+The alien species can't possibly all be hostile, can they?
+I am not at all sure.
+I hope that odor isn't coming from you.
+Of course!
+Of course not!
+Okay, let's get out of here.
+Okay, I hope you know what you're doing.
+Well, the dimensional breach is definitely transmitting organic matter.
+Why just look at those peculiar markings.
+Hm, what a peculiar odor.
+This analysis is going to run perfectly today, don't you think?
+Perhaps.
+Positively.
+Wouldn't it be fantastic to get some pure readings for a change?
+Don't you think we should recalculate those resonance dampening factors again?
+I don't suppose you'd reconsider?
+You know, you repeat yourself sometimes.
+I must remember to report that fluctuation.
+Surely someone will come and rescue us.
+Don't be ridiculous!
+Right!
+Are you sure this is the right way?
+The military cleanup is just a paranoid rumor, isn't it?
+I wonder if I should run that test again.
+You'll just have to wait until after the test.
+Please, leave me alone until after the experiment.
+I can't be bothered right now.
+Excuse me, Gordon, but I'm rather busy now.
+Dies
+Killed by a Barnacle
+Fear
+Oh no!
+Oh dear!
+Oh my!
+My goodness!
+No!
+Get back!
+Fear
+Pain
+No!
+Stop!
+No!
+Weren't you supposed to be in the test chamber half an hour ago?
+Scream
+No!
+Stop!
+Stop!
+No!
+Scream
+Scream
+Have you seen my coffee cup?
+This should shake up those grand unification boys, hm?
+Now where did I leave that shutdown procedure chart?
+Shut up.
+Shut up.
+Most of the simulation results are perfectly acceptable, you know.
+I'm slowing you down, am I?
+Do you smell something burning?
+Sneeze
+You aren't going soft on that ethics issue again, are you?
+Sorry, I'm leaving now.
+I believe something smells quite foul here.
+Startled
+Startled
+Oh no.
+Oh no.
+Did you submit your status report to the Administrator today?
+What is that stench?
+Well, i think it's rather stimulating, don't you?
+This is as far as I go.
+I refuse to go another step.
+You're going to have to leave me here, Gordon.
+I'm going to stay here and wait for my colleagues.
+Stop asking that question.
+Stop attacking, he's a friend!
+Do you recall any of those emergency survival procedures?
+That's odd.
+Theoretically.
+This should help.
+All displacement modulators were tuned today, weren't they?
+Are you running those tunneling lattice calculations again?
+Fat lot of good that Ph.D. does me now, hm?
+Why do we all have to wear these ridiculous ties?
+Well, do you have any idea what to do next?
+My God, what are you doing?
+Who can say?
+Who is responsible for this mess?
+Why are you asking me?
+Why are you leaving me here?
+Yes, let's go.
+Are you insane? Stop attacking, immediately!
+You look terrible.
+You look terrible.
+It appears that you need medical attention right away.
+Ah, you've been wounded. aaaa

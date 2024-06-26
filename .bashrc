@@ -29,6 +29,10 @@ mcfmt() {
   find . -name "$1" -type f -exec bash -c 'echo formatting "$0" && clang-format "$0" > "$0".2 && mv "$0".2 "$0"' {} \;
 }
 
+baseconv() {
+  echo "$1o $2 p" | dc
+}
+
 export -f cfmt
 
 # Go back in Git commit hierarchy
@@ -40,6 +44,8 @@ alias la="eza -lha --color=auto"
 alias lb="eza -lB --color=auto"
 alias get_idf='. ~/projects/esp-idf/export.sh'
 alias stripwhite="sed -i 's/[ \t]*$//' "
+
+export PATH="$PATH:/home/marie/node_18142/bin"
 
 # /cool/ prompt
 PS1="\u@\h \n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')$ \[$(tput sgr0)\]"
