@@ -14,16 +14,14 @@ set smartcase
 set ignorecase
 set incsearch
 
-set autoindent
-set expandtab
-set shiftwidth=2
-set smartindent
-set smarttab
-set softtabstop=2
+set autoindent noexpandtab tabstop=4 shiftwidth=4
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:.
+set list
 
 set ruler
 set showtabline=2
 
+set mouse=
 set undolevels=1000
 set backspace=indent,eol,start
 syntax on
@@ -42,5 +40,5 @@ nnoremap <C-y> :tabp<cr>
 " Tab Next
 nnoremap <C-x> :tabn<cr>
 
-" -- Autocmd -- "
-autocmd TermOpen * setlocal nonumber
+" -- Autos -- "
+autocmd TermOpen * setlocal nonumber norelativenumber
