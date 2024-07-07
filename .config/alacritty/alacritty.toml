@@ -28,10 +28,14 @@ LC_CTYPE = "en_US.UTF-8"
 TERM = "alacritty"
 
 [font]
-size = 9.0
+size = 15.0
 
 [font.normal]
-family = "Hack Nerd Font"
+family = "ComicShanns Nerd Font"
 
 [window]
 opacity = 0.85
+
+[window.dimensions]
+columns = 80
+lines = 24
