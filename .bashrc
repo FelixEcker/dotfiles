@@ -48,7 +48,7 @@ alias stripwhite="sed -i 's/[ \t]*$//' "
 export PATH="$PATH:/home/marie/node_18142/bin"
 
 # /cool/ prompt
-PS1="\u@\h \n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')$ \[$(tput sgr0)\]"
+PS1="[\u@\h \W]\\$ "
 
 pasfetch
 pasmotd red bold
