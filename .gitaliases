@@ -1,0 +1,80 @@
+[alias]
+    change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [ \\\"$`echo $VAR`\\\" = '$OLD' ]; then export $VAR='$NEW'; fi\" $@; }; f"
+    sc = "!base=$(git merge-base refs/remotes/origin/$(git remote show origin | sed -n \"/HEAD branch/s/.*: //p\") HEAD) && git diff-tree --name-only --diff-filter=d --no-commit-id -r $base HEAD | sort"
+    clang-format = git clang-format sc | grep '\\(\\c\\|h\\|hpp\\|cpp\\)' | xargs clang-format-17 -i
+    is-based = !git merge-base --is-ancestor origin/master HEAD && echo yes || echo no
+    ib = is-based
+    delete-gone = "!git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
+
+# backup
+    backup = "!f() { DIR=$(basename $(git rev-parse --show-toplevel)); HASH=$(git rev-parse HEAD); zip backup_${DIR}_${HASH}.zip $(git ls-files --modified) $(git ls-files -o --exclude-from=.gitignore); }; f"
+# branches
+    br = branch -v
+    branches = branch -a --verbose
+    show-merged = branch -a --merged
+    show-merged-local = branch -l --merged
+    show-merged-remote = branch -r --merged
+    show-unmerged = branch -a --no-merged
+    show-unmerged-local = branch -l --no-merged
+    show-unmerged-remote = branch -r --no-merged
+# checkout
+    co = !git checkout
+    feat = "!f(){ git checkout -b $USER/feature/$1 ; } ; f"
+    fix = "!f(){ git checkout -b $USER/fix/$1 ; } ; f"
+    fork = checkout -b
+    fork-master = !git checkout master && git pull && git checkout -b
+# cleanup
+    delete-merged = "!f() { git branch --merged | grep -v "\\*" | xargs -n 1 git branch -d; }; f"
+    # deletes branches with missing upstream branch
+    delete-mup = "!git fetch -p ; git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d"
+    delete-removed-upstream-branches = "!f(){ for branch in `git branch -vv | grep ': entfernt]'| tail -c +2 | head -c -1 | awk '{print $1}'`; do git branch -D $branch; done } ; f"
+    delete-removed-upstream-branches-en = "!f(){ for branch in `git branch -vv | grep ': gone]'| tail -c +2 | head -c -1 | awk '{print $1}'`; do git branch -D $branch; done } ; f"
+# commit
+    amend = commit --amend --reuse-message=HEAD
+    ci = commit -v
+    cm = !git commit -m
+# diff
+    changes = diff --staged
+    dc = diff --cached
+    diffhead = diff HEAD^
+# log
+    graph = log --graph --decorate --oneline
+    graph-full = log --graph --decorate
+    history = log --pretty=format:'%ad (%an) %h: %s' --date=iso
+    inspect = log --stat
+    lg0 = !git graph --all
+    lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+    lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+    lg = lg1    lg3 = !git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C
+    map = !git lg0
+    map-full = !git lg1
+    recent = log --oneline -n 10
+# merge
+    ff = merge --ff-only
+    merge-test = "!f() { git merge --no-commit --no-ff $1 && git merge --abort; }; f"
+# push
+    push-u = "!f() { BRANCH=$(git rev-parse --abbrev-ref HEAD); git push ${1-origin} -u $BRANCH; }; f"
+# rebase
+    ir = rebase -i --autosquash
+    ra = !git rebase --abort
+    rc = !git rebase --continue
+# stash
+    sth = !git stash
+    stha = !git stash apply
+    sthp = !git stash pop
+# status
+    st = status -sb
+# some more useful stuff
+    alias = !git config --get-regexp alias | sed 's/alias\\.\\([^ ]*\\) /\\1 := /'
+    ap = !git add -p
+    bra = !git for-each-ref --sort=committerdate --format='%(refname:short) * %(authorname) * %(committerdate:relative)' refs/remotes/ | column -t -s '*'
+    cd = "!f() { cd $(git rev-parse --show-toplevel); }; f"
+    incoming = !git inspect origin/HEAD ^HEAD
+    nsa = !watch --color 'git -c color.status=always status -s && echo && git graph --color'
+    pwd = "rev-parse --show-toplevel"
+    this-shit = !git init && git add . && git commit -m \"initial commit\"
+    unstage = reset HEAD
+    update = remote update --prune
+# fun shit - handle with care!
+    #yolo=!git commit -m \"$(curl -s whatthecommit.com/index.txt)\"
+    #fortune = !git commit -m \"$( fortune fortunes)\"
