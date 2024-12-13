@@ -10,6 +10,11 @@ call plug#end()
 
 colorscheme gruvbox
 
+hi Normal guibg=NONE ctermbg=NONE
+
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:.
+set list
+
 source ~/.config/nvim/tsconf.lua
 
 au BufRead,BufNewFile *.mcfg,*.mb set filetype=mcfg
