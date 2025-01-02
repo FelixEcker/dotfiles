@@ -9,7 +9,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'NMAC427/guess-indent.nvim'
 call plug#end()
 
-" colorscheme gruvbox
+colorscheme gruvbox
 highlight Normal  guibg=none
 highlight NonText guibg=none
 highlight Normal  ctermbg=none

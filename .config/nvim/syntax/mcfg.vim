@@ -1,8 +1,6 @@
-" MCFG/2 vim syntax file
-" Author: Marie Eckert
-" License: BSD 3-Clause License
-" Github: https://github.com/FelixEcker/mcfg_2
+" Vim syntax file for mcfg file format
 
+" Set the filetype
 let b:current_syntax = "mcfg"
 
 " Define keywords and colors

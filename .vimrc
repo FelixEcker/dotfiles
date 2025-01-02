@@ -15,7 +15,7 @@ set ignorecase
 set incsearch
 
 set autoindent noexpandtab tabstop=4 shiftwidth=4
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:.
+set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
 set list
 
 set ruler
