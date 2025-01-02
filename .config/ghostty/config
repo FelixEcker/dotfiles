@@ -1,0 +1,19 @@
+# font
+font-family = "Comic Mono"
+font-size = 14
+
+# colors
+theme = GruvboxDarkHard
+
+# window
+gtk-titlebar = false
+background-opacity = 0.95
+
+# cursor
+cursor-style = bar
+
+# shell integration
+
+# bash integration broky
+shell-integration = none
+# shell-integration-features = cursor, title
