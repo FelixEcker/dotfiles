@@ -44,6 +44,8 @@ alias ls='eza --color=auto -l'
 alias switchlayout='python ~/switchlayout.py'
 alias stripwhite="sed -i 's/[ \t]*$//' "
 alias memecontext="echo ich liebe schwarzen humor"
+alias run0="run0 --background= "
+alias sudo="run0"
 
 PS1="\u@\h \t\n\W \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')$ \[$(tput sgr0)\]"
 pasfetch

@@ -3,7 +3,7 @@ font-family = "Comic Mono"
 font-size = 14
 
 # colors
-theme = GruvboxDarkHard
+theme = /usr/share/ghostty/themes/GruvboxDarkHard
 
 # window
 gtk-titlebar = false
