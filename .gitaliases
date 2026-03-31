@@ -55,7 +55,7 @@
 # push
     push-u = "!f() { BRANCH=$(git rev-parse --abbrev-ref HEAD); git push ${1-origin} -u $BRANCH; }; f"
 # rebase
-    ir = rebase -i --autosquash
+    ir = rebase -i
     ra = !git rebase --abort
     rc = !git rebase --continue
 # stash
@@ -78,3 +78,9 @@
 # fun shit - handle with care!
     #yolo=!git commit -m \"$(curl -s whatthecommit.com/index.txt)\"
     #fortune = !git commit -m \"$( fortune fortunes)\"
+    madiff = !git diff origin/master..HEAD
+# MEC
+	whatadded = log --diff-filter=A
+	wdiff = !git diff --word-diff
+	wd = diff --word-diff=color --patience
+	ws = show --word-diff=color
