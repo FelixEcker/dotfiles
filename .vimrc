@@ -1,5 +1,6 @@
 " -- look & feel -- "
 set number
+set relativenumber
 
 set linebreak
 set showbreak=+++
@@ -14,9 +15,9 @@ set smartcase
 set ignorecase
 set incsearch
 
-set autoindent noexpandtab tabstop=4 shiftwidth=4
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:.
-set list
+" set autoindent noexpandtab tabstop=4 shiftwidth=4
+" set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
+" set list
 
 set ruler
 set showtabline=2
@@ -40,5 +41,22 @@ nnoremap <C-y> :tabp<cr>
 " Tab Next
 nnoremap <C-x> :tabn<cr>
 
-" -- Autos -- "
-autocmd TermOpen * setlocal nonumber norelativenumber
+" colorscheme catppuccin
+
+" augroup TransparentBackground
+"   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi NormalNC guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi Terminal guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi SignColumn guibg=NONE ctermbg=NONE
+" 
+"   autocmd vimenter * hi TelescopeBorder guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi TelescopePromptNormal guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi TelescopePreviewNormal guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi TelescopeResultsNormal guibg=NONE ctermbg=NONE
+" 
+"   autocmd vimenter * hi DiagnosticVirtualTextOk guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi DiagnosticVirtualTextHint guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi DiagnosticVirtualTextInfo guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi DiagnosticVirtualTextWarn guibg=NONE ctermbg=NONE
+"   autocmd vimenter * hi DiagnosticVirtualTextError guibg=NONE ctermbg=NONE
+" augroup END
